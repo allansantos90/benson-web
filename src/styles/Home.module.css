@@ -1,0 +1,46 @@
+.container {
+  margin: 10px 40px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+}
+
+.delete {
+  background: red;
+  color: white;
+}
+
+.ver {
+  background: blue;
+  color: white;
+}
+
+.edit {
+  background: green;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

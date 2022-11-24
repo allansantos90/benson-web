@@ -1,0 +1,49 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+input {
+  height: 50px;
+  width: 500px;
+  margin: 5px;
+
+}
+
+.buttonCreate {
+  border-radius: 50%;
+              padding: 5px;
+              background: blue;
+              color: white;
+              display: flex;
+              align-items: center;
+              font-size: 2rem;
+              transition: all 0.3s;
+}
+
+.buttonCreate:hover {
+  background: rgb(15, 15, 187);
+}
